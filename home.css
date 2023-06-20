@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(14, 12, 25, 0.991);
+    color: rgb(252, 255, 240);
+    /* background-color: #daab05; */
+}
+
+.logo{
+    display:inline;
+}
+.logo i{
+    font-size: 25px;
+    color: aliceblue;
+    /* margin-left: 1000px; */
+    margin-top: 25px;
+    margin-right: 20px;
+    float: right;
+    
+}
+.logo img {
+    height: 50px;
+    width: 200px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.main img {
+    height: 150px;
+    width: 250px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-top: 20px;
+}
+
+.container{
+    margin-top: 30px;
+
+}
+
+.data{
+    justify-content: center;
+    display: flex;
+    font-size: 30px;
+    font-family:Georgia;
+
+}
+.data span{
+    margin-left: 10px;
+
+}
+
+
+.patient-form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-family:Georgia;
+}
+.glu-rate input{
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border-color: aquamarine;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.submit-form input{
+    display:block;
+    margin-left: 40%;
+    margin-top: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 10px;
+    text-align: center;
+    background-color: #218037;
+    color: #fff;
+}
+
+.results{
+    margin-top: 30px;
+    font-size: 15px;
+    margin-left: 20%;
+    display: block;
+}
+.result-table {
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+thead th {
+    background-color: #343a40;
+    padding: 10px;
+  }
+tbody td {
+    padding: 10px;
+}
+
+.popup{
+    background: rgba(0, 0, 0, 0.582);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    display: none;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content{
+    height: 150px;
+    width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    position: relative;
+    color: black;
+}
+
+.popup-table{ text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.close{
+    position: absolute;
+    top:-15px;
+    height: 25px;
+    width: 25px;
+    background: #fff;
+    right: -15px;
+    border-radius: 50%;
+    cursor: pointer;
+}

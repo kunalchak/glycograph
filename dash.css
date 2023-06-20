@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(170, 215, 248);
+    color: rgb(4, 8, 48);
+}
+
+.dash-form{
+    display: flex;
+    justify-content:center;
+    top:20px;
+    font-size: 20px;
+    border: 2px;
+
+}
